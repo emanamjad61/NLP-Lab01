@@ -137,7 +137,33 @@ Nearest-vocabulary corrections for common misspellings, with ties reported.
 The pipeline applied to customer chats, stem/lemma non-word checks, a spelling suggester with
 tie-breaking, and autocorrected messages.
 
-<!-- LAB05 -->
+---
+
+## Lab 05 — N-gram Language Models & Smoothing
+
+Notebook: [`NLP_Lab05.ipynb`](NLP_Lab05.ipynb)
+
+**Activity 1 — Unsmoothed Bigram Model**
+An MLE bigram model on movie reviews, where unseen bigrams drive probability to 0 and perplexity to infinity.
+
+**Activity 2 — Trigram Model and Sparsity**
+The same with a trigram model, counting how many more n-grams go unseen as the context grows.
+
+**Activity 3 — Laplace (Add-One) Smoothing**
+Add-one removes the zeros and gives a finite perplexity, at the cost of mass taken from seen bigrams.
+
+**Activity 4 — Add-k Smoothing**
+Lidstone smoothing with k = 0.5, plus a sweep over k.
+
+**Activity 5 — Kneser-Ney, Witten-Bell and the Comparison Table**
+All five methods compared by perplexity, with the best one picked from the table.
+
+**Activity 6 — Next-Word Scoring**
+The best model scores two possible sentence endings, the idea behind keyboard suggestions.
+
+**Home Activities 1–4 — Product Reviews**
+Kneser-Ney vs Witten-Bell with `<UNK>` handling, a next-word predictor for reviews, bigram vs
+trigram perplexity, and how an unseen word affects smoothed and unsmoothed models.
 
 ---
 
