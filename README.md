@@ -109,7 +109,35 @@ Splitting a paragraph into sentences with NLTK's Punkt and spaCy's parser.
 Regex extraction from support tickets, token attributes vs regex for amounts, where NLTK and
 spaCy tokenization differ, and flagging sentence-boundary disagreements.
 
-<!-- LAB04-06 -->
+---
+
+## Lab 04 — Text Normalization, Cleaning & Minimum Edit Distance
+
+Notebook: [`NLP_Lab04.ipynb`](NLP_Lab04.ipynb)
+
+**Activity 1 — Basic Text Cleaning**
+Lowercasing, punctuation removal with `str.translate` and whitespace collapsing on the reviews dataset.
+
+**Activity 2 — Stop-Word Removal and Its Risks**
+NLTK vs spaCy stop lists, and VADER scores showing that dropping "not"/"but" flips a review's sentiment.
+
+**Activity 3 — Stemming vs Lemmatization**
+Porter stems next to spaCy lemmas for every distinct review word, flagging stems that are not real words.
+
+**Activity 4 — Minimum Edit Distance from Scratch**
+A hand-built Levenshtein DP table with backtrace, alignment and heatmap, checked against `nltk.edit_distance`.
+
+**Activity 5 — Full Cleaning Pipeline**
+One reusable function (lowercase, punctuation, stop words, lemmas) and the vocabulary reduction at each step.
+
+**Activity 6 — Edit-Distance Spelling Suggestions**
+Nearest-vocabulary corrections for common misspellings, with ties reported.
+
+**Home Activities 1–4 — Support Chats**
+The pipeline applied to customer chats, stem/lemma non-word checks, a spelling suggester with
+tie-breaking, and autocorrected messages.
+
+<!-- LAB05-06 -->
 
 ---
 
