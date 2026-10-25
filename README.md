@@ -137,7 +137,34 @@ Nearest-vocabulary corrections for common misspellings, with ties reported.
 The pipeline applied to customer chats, stem/lemma non-word checks, a spelling suggester with
 tie-breaking, and autocorrected messages.
 
-<!-- LAB05-06 -->
+<!-- LAB05 -->
+
+---
+
+## Lab 06 — Text Classification: Naive Bayes & Logistic Regression
+
+Notebook: [`NLP_Lab06.ipynb`](NLP_Lab06.ipynb)
+
+**Activity 1 — Bag-of-Words with CountVectorizer**
+2,000 NLTK movie reviews turned into a sparse document-term matrix, with its vocabulary and sparsity.
+
+**Activity 2 — TF-IDF vs Raw Counts**
+Count vs TF-IDF weights for common words, showing how IDF down-weights words found in almost every review.
+
+**Activity 3 — Train/Test Split and Two Classifiers**
+TF-IDF fitted on training text only (no leakage), then Multinomial Naive Bayes and Logistic Regression.
+
+**Activity 4 — Evaluation Beyond Accuracy**
+Accuracy, precision, recall, F1 and confusion matrices; Logistic Regression comes out ahead.
+
+**Activity 5 — Pipeline for Deployment**
+The vectorizer and best classifier bundled in one sklearn `Pipeline` and used on unseen reviews.
+
+**Home Activities 1–5 — Imbalanced App Reviews**
+A pipeline on an imbalanced app-review dataset: confusion matrix, most confident mistakes,
+retraining with `class_weight='balanced'`, and a recommendation for auto-flagging negative feedback.
+
+`data/lab06/movie_reviews.csv` (7.6 MB) is not committed; the notebook rebuilds it from NLTK.
 
 ---
 

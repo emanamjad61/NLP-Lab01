@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+data/lab06/movie_reviews.csv
