@@ -1,0 +1,11 @@
+posting_id,company,location,skills_found,n_skills
+1,Netsol Technologies,Lahore,"Excel, Python, SQL, Tableau",4
+2,Careem,Dubai,"AWS, Docker, Go, Grafana, Kubernetes, Python",6
+3,Systems Limited,Karachi,Figma,1
+4,Arbisoft,Islamabad,"AWS, PyTorch, Python",3
+5,Shopify,Toronto,"Figma, Jest, React, TypeScript",4
+6,Amazon Web Services,Dublin,"AWS, Linux, Python",3
+7,Daraz,Lahore,"Figma, SQL",2
+8,Spotify,Stockholm,"Apache Kafka, Google Cloud, Python, SQL, Spark",5
+9,TPS Worldwide,Karachi,"Jenkins, Python, Selenium",3
+10,10Pearls,Islamabad,"AWS, Azure, Bash, Docker, Kubernetes, Python, Terraform",7
